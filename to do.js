@@ -26,4 +26,12 @@ addButton.addEventListener('click',()=>{
     }else{
         taskList.appendChild(listDiv)
     }
+
+    doneButton.addEventListener('click',function(){
+        list.style.textDecoration='line-through'
+    })
+
+    deleteButton.addEventListener('click',function(){
+        list.parentElement.remove()
+    })
 })
