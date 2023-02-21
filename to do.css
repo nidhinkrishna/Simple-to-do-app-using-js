@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+input{
+    height: 50px;
+    width: 400px;
+    font-size: 22px;
+}
+#add-btn{
+    height: 55px;
+    width: 50px;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+#add-btn:hover{
+    background-color: aquamarine;
+    font-size: 22px;
+}
