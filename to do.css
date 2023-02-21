@@ -9,14 +9,19 @@ input{
     height: 50px;
     width: 400px;
     font-size: 22px;
+    border-radius: 10px;
 }
 #add-btn{
     height: 55px;
-    width: 50px;
+    width: 60px;
     margin-left: 5px;
     transition: 0.3s;
+    border-radius: 10px;
 }
 #add-btn:hover{
     background-color: aquamarine;
     font-size: 22px;
+}
+#task-list{
+    
 }
